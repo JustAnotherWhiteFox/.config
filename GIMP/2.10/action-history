@@ -1,0 +1,9 @@
+# GIMP action-history
+
+(history-item "file-overwrite" 0)
+(history-item "file-quit" 1)
+(history-item "image-rotate-90" 0)
+(history-item "image-rotate-270" 0)
+(history-item "tools-heal" 1)
+
+# end of action-history
