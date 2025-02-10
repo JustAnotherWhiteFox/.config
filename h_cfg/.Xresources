@@ -1,0 +1,66 @@
+!! Colorscheme
+
+! special
+*background: #222436
+*foreground: #c8d3f5
+*.cursorColor: #DAA520
+
+! black
+*color0: #1b1d2b
+*color8: #444a73
+
+! red
+*color1: #ff757f
+*color9: #ff757f
+
+! green
+*color2: #c3e88d
+*color10: #c3e88d
+
+*color3: #ffc777
+*color11: #ffc777
+
+! blue
+*color4: #82aaff
+*color12: #82aaff
+
+! magenta
+*color5: #c099ff
+*color13: #c099ff
+
+! cyan
+*color6: #86e1fc
+*color14: #86e1fc
+
+! white
+*color7: #828bb8
+*color15: #c8d3f5
+
+!! URxvt Appearance
+URxvt.font: xft: BlexMono Nerd Font Mono:style=Regular:antialias=true:size=8:minspace=False
+URxvt.boldFont: xft: BlexMono Nerd Font Propo:style=Bold:antialias=true:size=9:minspace=False
+URxvt.italicFont: xft: BlexMono Nerd Font Mono:style=Italic:antialias=true:size=8:minspace=False
+URxvt.boldItalicFont: xft: BlexMono Nerd Font Mono:style=Bold Italic:antialias=true:size=9:minspace=False 
+
+!do not use diferent color on bold
+URxvt.intensityStyles: false 
+
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+
+!window size 
+URxvt.geometry: 92x24
+URxvt.internalBorder: 15
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+
+!scroll Bar
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+!URxvt.iso14755: false
+
+!Tranparency
+URxvt*depth: 32
+URxvt.background: [50]#020416
